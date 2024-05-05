@@ -1,0 +1,16 @@
+{
+    "Revenue": {
+        "Mobility": "$23.6 billion",
+        "Delivery": "$13.49 billion",
+        "Freight": "$4.6 billion"
+    },
+    "Net Income": {
+        "Mobility": "-$6.761 billion",
+        "Delivery": "-$2.408 billion ",
+        "Freight": "-$1.193 billion"
+    },
+    "Effective Tax Rate": "13.2%",
+    "Deferred Tax Assets": "$9.27 billion",
+    "Deferred Tax Liabilities": "$539 million",
+    "Foreign Income Percentage": "74.9%"
+}

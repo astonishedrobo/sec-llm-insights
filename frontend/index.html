@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>10-K Filings Insight App</title>
+    <link rel="stylesheet" href="output.css"> <!-- Replace with the actual path to your Tailwind CSS output file -->
+</head>
+<body>
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-2xl font-bold mb-4">10-K Filings Insight App</h1>
+        <form id="insightForm" class="grid gap-4">
+            <div>
+                <label class="block font-bold" for="company">Enter Company Name:</label>
+                <input class="border rounded py-2 px-3 w-full" type="text" id="company" name="company" required autocomplete="off">
+            </div>
+            <div>
+                <label class="block font-bold" for="email">Enter Email Address:</label>
+                <input class="border rounded py-2 px-3 w-full" type="email" id="email" name="email" required autocomplete="off">
+            </div>
+            <div>
+                <label class="block font-bold" for="ticker">Enter Stock Ticker:</label>
+                <input class="border rounded py-2 px-3 w-full" type="text" id="ticker" name="ticker" required autocomplete="off">
+            </div>
+            <div>
+                <label class="block font-bold" for="fromYear">From Year:</label>
+                <select id="fromYear" name="fromYear" class="border rounded py-2 px-3 w-full">
+                    <!-- Options will be generated dynamically by JavaScript -->
+                </select>
+            </div>
+            <div>
+                <label class="block font-bold" for="toYear">To Year:</label>
+                <select id="toYear" name="toYear" class="border rounded py-2 px-3 w-full">
+                    <!-- Options will be generated dynamically by JavaScript -->
+                </select>
+            </div>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">
+                Generate Insights
+            </button>
+        </form>
+
+        <div id="loading" class="hidden">
+            <div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-gray-900"></div>
+        </div>
+
+        <div id="buttons" class="hidden mt-4">
+            <button id="insightsBtn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-l">
+                Insights
+            </button>
+            <button id="detailedInsightsBtn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r">
+                Detailed Insights
+            </button>
+        </div>
+
+        <div id="insightsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"></div>
+        <div id="detailedInsightsContainer" class="hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "Revenue": {
+        "Advertising": "$12.466 billion ",
+        "Payments": "$2.159 billion",
+        "Other": "$112 million"
+    },
+    "Net Income": {
+        "Advertising": "+$2.523 billion ",
+        "Payments": "+$639 million",
+        "Other": "-$22 million"
+    },
+    "Effective Tax Rate": "38%",
+    "Deferred Tax Assets": "$520 million",
+    "Deferred Tax Liabilities": "$97 million",
+    "Foreign Income Percentage": "46%"
+}

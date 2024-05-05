@@ -1,0 +1,20 @@
+{
+    "Revenue": {
+        "Rides": "$10.7 billion",
+        "Uber Eats": "$4.4 billion",
+        "Freight": "$3.8 billion",
+        "ATG and Other Technology Programs": "$52 million",
+        "Other Bets": "$417 million"
+    },
+    "Net Income": {
+        "Rides": "$(6.8) billion",
+        "Uber Eats": "$(1.5) billion",
+        "Freight": "$(1.6) billion",
+        "ATG and Other Technology Programs": "$(5.6) billion",
+        "Other Bets": "$(3.8) billion"
+    },
+    "Effective Tax Rate": "36.6%",
+    "Deferred Tax Assets": "$17.1 billion",
+    "Deferred Tax Liabilities": "$2.2 billion",
+    "Foreign Income Percentage": "9%"
+}

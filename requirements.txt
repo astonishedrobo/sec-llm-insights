@@ -1,0 +1,8 @@
+Flask
+requests
+python-dotenv
+sec-parser
+sec-edgar-downloader
+matplotlib
+numpy
+argparse
